@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contribuições Sustentáveis</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <p>Contribuições Sustentáveis</p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sujestoes">Sujestões</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="title">
+            <h1>Contribuições<br>Sustentáveis</h1>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="fundo">
+            <img class="arvores" id="arvore1" src="images/arvore.png" alt="">
+            <img class="arvores" id="arvore2" src="images/arvore.png" alt="">
+            <img id="grama" src="images/grama.png" alt="">
+            <div class="texto-sobre">
+                <p>Veja o que você pode fazer para nos aproximarmos de um ambiente
+                    mais saudável<br> e uma sociedade
+                    mais justa</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="projetos">
+        <p class="titulo-projetos">Projetos</p>
+        <div class="container">
+            <div class="projetos-card" id="projeto-1" onclick="openProjeto1()">
+                <div class="cabecalho-card">
+                    <p>Projeto 1</p>
+                </div>
+            </div>
+            <div class="projetos-card" id="projeto-2" onclick="openProjeto2()">
+                <div class="cabecalho-card">
+                    <p>Projeto 2</p>
+                </div></div>
+            <div class="projetos-card" id="projeto-3" onclick="openProjeto3()">
+                <div class="cabecalho-card">
+                    <p>Projeto 3</p>
+                </div></div>
+            <div class="projetos-card" id="projeto-4" onclick="openProjeto4()">
+                <div class="cabecalho-card">
+                    <p>Projeto 4</p>
+                </div></div>
+            <div class="projetos-card" id="projeto-5" onclick="openProjeto5()">
+                <div class="cabecalho-card">
+                    <p>Projeto 5</p>
+                </div></div>
+            <div class="projetos-card" id="projeto-6" onclick="openProjeto6()">
+                <div class="cabecalho-card">
+                    <p>Projeto 6</p>
+                </div></div>
+        </div>
+        <p class="carregar-projetos">↓ Carregar mais ↓</p>
+    </section>
+
+    <section id="sujestoes">
+        <p class="title-sujestoes">Deixe sua sujestão</p>
+        <div class="container-sujestao">
+            <div class="div-nome">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="txt-nome" placeholder="Digite seu nome completo">
+            </div>
+            <div class="div-email">
+                <label for="email">E-mail</label>
+                <input type="email" name="e-mail" id="txt-email" placeholder="Digite seu email">
+            </div>
+            <div class="div-telefone">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="txt-telefone" placeholder="+00 (00) 0000-0000">
+            </div>
+            <div class="div-sujestao">
+                <label for="sujestao">Sujestão</label>
+                <textarea name="" id="txt-sujestao" cols="30" rows="10" placeholder="Deixe sua sujestão aqui" maxlength="1020"></textarea>
+            </div>
+            <div class="btn-enviar">
+                <input type="button" value="Enviar" onclick="enviarSujestao()">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="informacoes">
+            <p class="title-footer">Contribuições Sustentáveis</p>
+            <p class="email">E-mail: contato@contribuicoes.com</p>
+            <p class="tel-whats">Telefone / WhatsApp: +55 (18) 97478-4245</p>
+        </div>
+        <div class="redes-sociais">
+            <p class="title-redes-sociais">Redes Sociais</p>
+            <div class="icons">
+                <img class="facebook" src="images/facebook.png" alt="facebook">
+                <img class="instagram" src="images/instagram.png" alt="instagram">
+                <img class="twitter" src="images/twitter.png" alt="twitter">
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

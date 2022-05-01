@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -176,12 +178,66 @@ header nav ul li{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25pt;
+    font-size: 20pt;
 }
 
 #projetos .container .projetos-card .cabecalho-card p{
     text-align: center;
     color: #868686;
+}
+
+#projetos .container .projetos-card .img-card1{
+    background-image: url('../images/fogao-card.png');
+    width: 100vw;
+    height: 220px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-size: cover;
+}
+
+#projetos .container .projetos-card .img-card2{
+    background-image: url('../images/planta-card.png');
+    width: 100vw;
+    height: 220px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-size: cover;
+}
+
+#projetos .container .projetos-card .img-card3{
+    background-image: url('../images/reciclagem-card.png');
+    width: 100vw;
+    height: 220px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-size: cover;
+}
+
+#projetos .container .projetos-card .img-card4{
+    background-image: url('../images/garrafa.png');
+    width: 100vw;
+    height: 220px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-size: cover;
+}
+
+#projetos .container .projetos-card .img-card5{
+    background-image: url('../images/quimico-card.png');
+    width: 100vw;
+    height: 220px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-size: cover;
+}
+
+#projetos .container .projetos-card .img-card6{
+    background-image: url('../images/omita-card.png');
+    width: 100vw;
+    height: 220px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-size: cover;
 }
 
 #projetos .carregar-projetos{
@@ -190,6 +246,57 @@ header nav ul li{
     text-align: center;
     font-size: 15pt;
     cursor: pointer;
+}
+
+#show-mural #mural{
+    position: fixed;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 16px;
+    background-color: #64ca28;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0px 0px 15px 1px black;
+}
+
+#show-mural #mural .mural-close{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(255, 238, 5);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#show-mural #mural .conteudo-mural{
+    width: 100vw;
+    height: 88%;
+    /* background-color: blue; */
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#show-mural #mural .mural-close .btn-fechar{
+    color: red;
+    margin-right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+
+#show-mural #mural .mural-img{
+    width: 200px;
+}
+
+#show-mural #mural .mural-txt{
+    /* background-color: purple; */
+    width: 50vw;
+    font-size: 20px;
 }
 
 #sujestoes{

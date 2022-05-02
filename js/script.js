@@ -151,7 +151,37 @@ function fecharProjeto(){
 	mural.innerHTML = ``
 }
 
+var txtNome = window.document.querySelector('input#txt-nome')
+var txtEmail = window.document.querySelector('input#txt-email')
+var txtTelefone = window.document.querySelector('input#txt-telefone')
+var txtSugestao = window.document.querySelector('textarea#txt-sugestao')
+
 // Função ativada ao clicar no botão "Enviar"
 function enviarsugestao(){
-	alert("Sugestão enviada com sucesso!")
+	if (txtNome.value != `` && txtEmail.value != `` && txtTelefone.value != `` && txtSugestao.value != ``) {
+		alert("Sugestão enviada com sucesso!")
+		txtNome.value = ``
+		txtEmail.value = ``
+		txtTelefone.value = ``
+		txtSugestao.value = ``
+		txtNome.style.border = "none"
+		txtEmail.style.border = "none"
+		txtTelefone.style.border = "none"
+		txtSugestao.style.border = "none"
+	} else {
+		if(txtNome.value == ``) {
+			txtNome.style.border = "2px red solid"
+		}
+		if(txtEmail.value == ``) {
+			txtEmail.style.border = "2px red solid"
+		}
+		if(txtTelefone.value == ``) {
+			txtTelefone.style.border = "2px red solid"
+		}
+		if(txtSugestao.value == ``) {
+			txtSugestao.style.border = "2px red solid"
+		}
+		alert("Preencha todos os campos!")
+	}
+	
 }

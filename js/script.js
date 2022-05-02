@@ -152,6 +152,6 @@ function fecharProjeto(){
 }
 
 // Função ativada ao clicar no botão "Enviar"
-function enviarSujestao(){
-	alert("Sujestão enviada com sucesso!")
+function enviarsugestao(){
+	alert("Sugestão enviada com sucesso!")
 }

@@ -315,7 +315,7 @@ header nav ul li{
     margin-top: 30px;
 }
 
-#sujestoes .container-sujestao{
+#sujestoes .container-sugestao{
     width: 100vw;
     height: 80vh;
     /* background-color: yellow; */
@@ -326,18 +326,18 @@ header nav ul li{
     font-family: arial;
 }
 
-#sujestoes .container-sujestao .div-nome{
+#sujestoes .container-sugestao .div-nome{
     display: flex;
     justify-content: space-between;
 }
 
-#sujestoes .container-sujestao .div-nome label{
+#sujestoes .container-sugestao .div-nome label{
     margin-left: 30vh;
     margin-top: 0px;
     text-shadow: 0.1em 0.1em 0.2em rgb(41, 39, 39);
 }
 
-#sujestoes .container-sujestao .div-nome input{
+#sujestoes .container-sugestao .div-nome input{
     margin-right: 30vh;
     width: 60%;
     padding: 8px;
@@ -345,19 +345,19 @@ header nav ul li{
     border: none;
 }
 
-#sujestoes .container-sujestao .div-email{
+#sujestoes .container-sugestao .div-email{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-#sujestoes .container-sujestao .div-email label{
+#sujestoes .container-sugestao .div-email label{
     margin-left: 30vh;
     margin-top: 0px;
     text-shadow: 0.1em 0.1em 0.2em rgb(41, 39, 39);
 }
 
-#sujestoes .container-sujestao .div-email input{
+#sujestoes .container-sugestao .div-email input{
     margin-right: 30vh;
     width: 60%;
     padding: 8px;
@@ -365,19 +365,19 @@ header nav ul li{
     border: none;
 }
 
-#sujestoes .container-sujestao .div-telefone{
+#sujestoes .container-sugestao .div-telefone{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-#sujestoes .container-sujestao .div-telefone label{
+#sujestoes .container-sugestao .div-telefone label{
     margin-left: 30vh;
     margin-top: 0px;
     text-shadow: 0.1em 0.1em 0.2em rgb(41, 39, 39);
 }
 
-#sujestoes .container-sujestao .div-telefone input{
+#sujestoes .container-sugestao .div-telefone input{
     margin-right: 30vh;
     width: 60%;
     padding: 8px;
@@ -385,19 +385,19 @@ header nav ul li{
     border: none;
 }
 
-#sujestoes .container-sujestao .div-sujestao{
+#sujestoes .container-sugestao .div-sugestao{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-#sujestoes .container-sujestao .div-sujestao label{
+#sujestoes .container-sugestao .div-sugestao label{
     margin-left: 30vh;
     margin-top: 0px;
     text-shadow: 0.1em 0.1em 0.2em rgb(41, 39, 39);
 }
 
-#sujestoes .container-sujestao .div-sujestao textarea{
+#sujestoes .container-sugestao .div-sugestao textarea{
     margin-right: 30vh;
     width: 60%;
     padding: 8px;
@@ -407,14 +407,14 @@ header nav ul li{
     font-family: arial;
 }
 
-#sujestoes .container-sujestao .btn-enviar{
+#sujestoes .container-sugestao .btn-enviar{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
 }
 
-#sujestoes .container-sujestao .btn-enviar input{
+#sujestoes .container-sugestao .btn-enviar input{
     border-radius: 8px;
     width: 150px;
     height: 50px;
